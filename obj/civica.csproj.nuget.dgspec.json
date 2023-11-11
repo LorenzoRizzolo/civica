@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/maverick/civica/civica.csproj": {}
+    "/var/www/civica/civica.csproj": {}
   },
   "projects": {
-    "/home/maverick/civica/civica.csproj": {
+    "/var/www/civica/civica.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/maverick/civica/civica.csproj",
+        "projectUniqueName": "/var/www/civica/civica.csproj",
         "projectName": "civica",
-        "projectPath": "/home/maverick/civica/civica.csproj",
+        "projectPath": "/var/www/civica/civica.csproj",
         "packagesPath": "/home/maverick/.nuget/packages/",
-        "outputPath": "/home/maverick/civica/obj/",
+        "outputPath": "/var/www/civica/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/maverick/.nuget/NuGet/NuGet.Config"

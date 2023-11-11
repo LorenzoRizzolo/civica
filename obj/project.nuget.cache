@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rk5clUNT7oVNCj24zylEAHk8szB7S1pkl1iLm7BAQmgieble5HTsMe72io+JuUq7uJ+E7G6gkb9DEMXfhaxf0w==",
+  "dgSpecHash": "V3+r4Gdl1PrAMrdx+I+wKurYb/0wRTcFgcsWlrRH4a71pyoEkLrAdZxWt2V8JYhH0u1bLGGpJbNvAAKZdX6s+Q==",
   "success": true,
-  "projectFilePath": "/home/maverick/civica/civica.csproj",
+  "projectFilePath": "/var/www/civica/civica.csproj",
   "expectedPackageFiles": [
     "/home/maverick/.nuget/packages/microsoft.aspnetcore.authorization/6.0.24/microsoft.aspnetcore.authorization.6.0.24.nupkg.sha512",
     "/home/maverick/.nuget/packages/microsoft.aspnetcore.components/6.0.24/microsoft.aspnetcore.components.6.0.24.nupkg.sha512",
