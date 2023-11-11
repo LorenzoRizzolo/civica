@@ -1,6 +1,6 @@
 ﻿<div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="">civica</a>
+        <a class="navbar-brand" href="">Civica</a>
         <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -15,10 +15,12 @@
             </NavLink>
         </div>
 
+        <h3 class="title">Articoli</h3>
+
         @foreach (var article in list_articles){
             <div class="nav-item px-3">
                 <NavLink class="nav-link" href=@article.Key>
-                    <span class="oi oi-plus" aria-hidden="true"></span> @article.Value
+                    <civica.Pages.Icon name="feed" /> @article.Value
                 </NavLink>
             </div>
         }
@@ -38,6 +40,19 @@
 
     Dictionary < string, string > list_articles = new Dictionary < string, string > (){
         { "/covid", "Covid"},
-        { "/da vinci", "Leonardo da vinci" }
+        { "/crescere", "Crescere onesti cittadini" },
+        { "/augustan", "Augustan Age" },
+        { "/cyber", "Cyber Security" },
+        { "/manicomi", "Manicomi" },
+        { "/paolo", "Paolo Borsellino" },
+        { "/pena", "Pena di morte" }
     };
 }
+
+<style>
+    .title{
+        color: white;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+</style>

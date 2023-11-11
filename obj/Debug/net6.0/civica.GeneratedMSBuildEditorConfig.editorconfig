@@ -22,16 +22,40 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/maverick/civica/Pages/Augustan.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXVndXN0YW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/maverick/civica/Pages/Covid.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ292aWQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/maverick/civica/Pages/Da vinci.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGEgdmluY2kucmF6b3I=
+[/home/maverick/civica/Pages/Crescere.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ3Jlc2NlcmUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/maverick/civica/Pages/Cybersecurity.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ3liZXJzZWN1cml0eS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/maverick/civica/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/maverick/civica/Pages/Icon.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSWNvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/maverick/civica/Pages/Manicomi.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTWFuaWNvbWkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/maverick/civica/Pages/Paolo.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGFvbG8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/maverick/civica/Pages/Penadimorte.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGVuYWRpbW9ydGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/maverick/civica/Shared/SurveyPrompt.razor]
