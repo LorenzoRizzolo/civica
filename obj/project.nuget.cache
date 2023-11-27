@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "V3+r4Gdl1PrAMrdx+I+wKurYb/0wRTcFgcsWlrRH4a71pyoEkLrAdZxWt2V8JYhH0u1bLGGpJbNvAAKZdX6s+Q==",
+  "dgSpecHash": "dS/ymqfEtnEB0JxeaUZSGYbg2/TEreb6qjefT96FwxfCnd5T9B/zYUf30XSODpG4Vh2o+R76FRq/LI5ph3FuqA==",
   "success": true,
   "projectFilePath": "/var/www/civica/civica.csproj",
   "expectedPackageFiles": [
@@ -33,7 +33,7 @@
     "/home/maverick/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "/home/maverick/.nuget/packages/system.text.encodings.web/6.0.0/system.text.encodings.web.6.0.0.nupkg.sha512",
     "/home/maverick/.nuget/packages/system.text.json/6.0.0/system.text.json.6.0.0.nupkg.sha512",
-    "/home/maverick/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/6.0.24/microsoft.netcore.app.runtime.mono.browser-wasm.6.0.24.nupkg.sha512"
+    "/home/maverick/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/6.0.25/microsoft.netcore.app.runtime.mono.browser-wasm.6.0.25.nupkg.sha512"
   ],
   "logs": []
 }

@@ -26,6 +26,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXVndXN0YW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/var/www/civica/Pages/CampiGiappone.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2FtcGlHaWFwcG9uZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/var/www/civica/Pages/Covid.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ292aWQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -36,6 +40,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/var/www/civica/Pages/Cybersecurity.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ3liZXJzZWN1cml0eS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/var/www/civica/Pages/Donne.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRG9ubmUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/var/www/civica/Pages/Home.razor]
@@ -56,6 +64,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/var/www/civica/Pages/Penadimorte.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGVuYWRpbW9ydGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/var/www/civica/Pages/Peppino_impastato.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGVwcGlub19pbXBhc3RhdG8ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/var/www/civica/Shared/SurveyPrompt.razor]
