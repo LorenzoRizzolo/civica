@@ -130,7 +130,7 @@
   // Framework7 Parameters
   let f7params = {
     name: 'civica', // App name
-    theme: 'auto', // Automatic theme detection
+    theme: 'md', // Automatic theme detection
     colors: {
       primary: '#ff0000',
     },

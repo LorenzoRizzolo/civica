@@ -5,10 +5,6 @@
         <Link iconIos="f7:menu" iconMd="material:menu" panelOpen="left" />
       </NavLeft>
       <NavTitle sliding>{title.title}</NavTitle>
-      <!-- <NavTitle sliding>civica</NavTitle> -->
-      <NavRight>
-        <Link iconIos="f7:menu" iconMd="material:menu" panelOpen="right" />
-      </NavRight>
       <NavTitleLarge>{title.title}</NavTitleLarge>
     </Navbar>
   

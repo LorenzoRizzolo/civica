@@ -5,10 +5,6 @@
       <Link iconIos="f7:menu" iconMd="material:menu" panelOpen="left" />
     </NavLeft>
     <NavTitle sliding>Educazione civica <br><small><small><small>Lorenzo Rizzolo</small></small></small></NavTitle>
-    <!-- <NavTitle sliding>civica</NavTitle> -->
-    <NavRight>
-      <Link iconIos="f7:menu" iconMd="material:menu" panelOpen="right" />
-    </NavRight>
     <NavTitleLarge>Educazione civica <br><small><small><small>Lorenzo Rizzolo</small></small></small></NavTitleLarge>
   </Navbar>
 
