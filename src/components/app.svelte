@@ -5,40 +5,46 @@
     <View>
       <Page>
         <Navbar title="Left Panel"/>
-        <Block>Left panel content goes here</Block>
+        <Block>
+
+          <List dividersIos outlineIos strongIos>
+            
+    
+            {#each pages as p}
+              <ListItem>
+                <Link tabLink={"#view-"+p.name} class="panel-close" iconMd={p.icon} text={p.title} />
+              </ListItem>
+            {/each}
+    
+          </List>
+        </Block>
       </Page>
     </View>
   </Panel>
-
-
-  <!-- Right panel with reveal effect-->
-  <Panel right reveal dark>
-    <View>
-      <Page>
-        <Navbar title="Right Panel"/>
-        <Block>Right panel content goes here</Block>
-      </Page>
-    </View>
-  </Panel>
-
 
   <!-- Views/Tabs container -->
   <Views tabs class="safe-areas">
     <!-- Tabbar for switching views-tabs -->
-    <Toolbar tabbar icons bottom>
+    <!-- <Toolbar tabbar icons bottom>
       <Link tabLink="#view-home" tabLinkActive iconIos="f7:house_fill" iconMd="material:home" text="Home" />
       <Link tabLink="#view-catalog" iconIos="f7:square_list_fill" iconMd="material:view_list" text="Catalog" />
       <Link tabLink="#view-settings" iconIos="f7:gear" iconMd="material:settings" text="Settings" />
-    </Toolbar>
+    </Toolbar> -->
+
+    <View id="view-home" tab tabActive url="/" />
+
+    {#each pages as p}
+      <View id={"view-"+p.name} tab url={p.path} />
+    {/each}
 
     <!-- Your main view/tab, should have "view-main" class. It also has "tabActive" prop -->
-    <View id="view-home" main tab tabActive url="/" />
+    <!-- <View id="view-home" main tab tabActive url="/" /> -->
 
     <!-- Catalog View -->
-    <View id="view-catalog" name="catalog" tab url="/catalog/" />
+    <!-- <View id="view-catalog" name="catalog" tab url="/catalog/" /> -->
 
     <!-- Settings View -->
-    <View id="view-settings" name="settings" tab url="/settings/" />
+    <!-- <View id="view-settings" name="settings" tab url="/settings/" /> -->
 
   </Views>
 
@@ -117,6 +123,8 @@
   import capacitorApp from '../js/capacitor-app';
   import routes from '../js/routes';
   import store from '../js/store';
+
+  import { pages } from '../js/routes';
 
   const device = getDevice();
   // Framework7 Parameters

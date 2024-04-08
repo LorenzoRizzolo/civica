@@ -4,52 +4,30 @@
     <NavLeft>
       <Link iconIos="f7:menu" iconMd="material:menu" panelOpen="left" />
     </NavLeft>
-    <NavTitle sliding>civica</NavTitle>
+    <NavTitle sliding>Educazione civica <br><small><small><small>Lorenzo Rizzolo</small></small></small></NavTitle>
+    <!-- <NavTitle sliding>civica</NavTitle> -->
     <NavRight>
       <Link iconIos="f7:menu" iconMd="material:menu" panelOpen="right" />
     </NavRight>
-    <NavTitleLarge>civica</NavTitleLarge>
+    <NavTitleLarge>Educazione civica <br><small><small><small>Lorenzo Rizzolo</small></small></small></NavTitleLarge>
   </Navbar>
 
-  <!-- Page content -->
   <Block>
-    <p>This is an example of tabs-layout application. The main point of such tabbed layout is that each tab contains independent view with its own routing and navigation.</p>
-
-    <p>Each tab/view may have different layout, different navbar type (dynamic, fixed or static) or without navbar like this tab.</p>
+    <BlockTitle>Chi sono?</BlockTitle>
+    Mi chiamo Lorenzo Rizzolo e sono uno studente dell'Istituto Internazionale Edoardo Agnelli di Torino.
   </Block>
 
-  <BlockTitle>Navigation</BlockTitle>
-  <List strong inset dividersIos>
-    <ListItem link="/about/" title="About"/>
-    <ListItem link="/form/" title="Form"/>
-  </List>
-
-  <BlockTitle>Modals</BlockTitle>
-  <Block class="grid grid-cols-2 grid-gap">
-    <Button fill popupOpen="#my-popup">Popup</Button>
-    <Button fill loginScreenOpen="#my-login-screen">Login Screen</Button>
+  <Block>
+    <BlockTitle>Quali sono i miei principali interessi?</BlockTitle>
+    Il mio principale focus è sullo sviluppo di applicazioni web moderne e lo sviluppo web
   </Block>
 
-  <BlockTitle>Panels</BlockTitle>
-  <Block class="grid grid-cols-2 grid-gap">
-    <Button fill panelOpen="left">Left Panel</Button>
-    <Button fill panelOpen="right">Right Panel</Button>
+  <Block>
+    <BlockTitle>Nuove tecnologie</BlockTitle>
+    Nei miei progetti utilizzo sempre nuove tecnologie, le quali facilitano lo sviluppo e ne migliorano le prestazioni. Questo sito è stato sviluppato con un potete
+    framework moderno, ossia Svelte e framework7.
   </Block>
 
-  <List strong inset dividersIos>
-    <ListItem
-      title="Dynamic (Component) Route"
-      link="/dynamic-route/blog/45/post/125/?foo=bar#about"
-    />
-    <ListItem
-      title="Default Route (404)"
-      link="/load-something-that-doesnt-exist/"
-    />
-    <ListItem
-      title="Request Data & Load"
-      link="/request-and-load/user/123456/"
-    />
-  </List>
 </Page>
 <script>
   import {
