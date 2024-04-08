@@ -1,0 +1,26 @@
+{
+  "cwd": "/home/maverick/civica",
+  "type": [
+    "pwa",
+    "capacitor"
+  ],
+  "name": "civica",
+  "framework": "svelte",
+  "template": "tabs",
+  "bundler": "vite",
+  "cssPreProcessor": "less",
+  "theming": {
+    "customColor": true,
+    "color": "#ff0000",
+    "darkMode": true,
+    "iconFonts": true
+  },
+  "customBuild": false,
+  "pkg": "io.framework7.myapp",
+  "capacitor": {
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  }
+}
