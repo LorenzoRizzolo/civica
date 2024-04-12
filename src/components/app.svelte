@@ -5,19 +5,32 @@
     <View>
       <Page>
         <Navbar title="Left Panel"/>
-        <Block>
 
           <List dividersIos outlineIos strongIos>
             
     
             {#each pages as p}
-              <ListItem>
-                <Link tabLink={"#view-"+p.name} class="panel-close" iconMd={p.icon} text={p.title} />
-              </ListItem>
+              {#if p.name!="404"}
+                {#if p.routes}
+                  <Block strong inset>
+                    <BlockTitle>{p.name}</BlockTitle>
+                    {#each p.routes as r}
+                    <ListItem>
+                      <Link tabLink={"#view-"+r.name} class="panel-close" iconMd={r.icon} text={r.title} />
+                    </ListItem>
+                    {/each}
+                  </Block>
+                {:else}
+                  <Block strong inset>
+                    <ListItem>
+                      <Link tabLink={"#view-"+p.name} class="panel-close" iconMd={p.icon} text={p.title} />
+                    </ListItem>
+                  </Block>
+                {/if}
+              {/if}
             {/each}
     
           </List>
-        </Block>
       </Page>
     </View>
   </Panel>
@@ -33,9 +46,21 @@
 
     <View id="view-home" tab tabActive url="/" />
 
+
     {#each pages as p}
-      <View id={"view-"+p.name} tab url={p.path} />
+      {#if p.name!="404"}
+        {#if p.routes}
+            {#each p.routes as r}
+              <View id={"view-"+r.name} tab url={"/"+p.name+"/"+r.path} />
+            {/each}
+        {:else}
+          <View id={"view-"+p.name} tab url={p.path} />   
+        {/if}
+      {/if}
     {/each}
+    <!-- {#each pages as p}
+      <View id={"view-"+p.name} tab url={p.path} />
+    {/each} -->
 
     <!-- Your main view/tab, should have "view-main" class. It also has "tabActive" prop -->
     <!-- <View id="view-home" main tab tabActive url="/" /> -->
