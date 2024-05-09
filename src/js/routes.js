@@ -9,6 +9,7 @@ import cyberPage from "../pages/2023/cyber.svelte"
 import manicomiPage from "../pages/2023/manicomi.svelte"
 import borsellinoPage from "../pages/2022/borsellino.svelte"
 import penamortePage from "../pages/2023/penadimorte.svelte"
+import CarceriPage from "../pages/2024/carceri.svelte"
 
 
 function get_routes(){
@@ -101,6 +102,13 @@ function get_routes(){
           name:"giappponesi",
           title:"Giappone 1920",
           component: GiapoPage,
+          icon: "material:newspaper"
+        },
+        {
+          path: 'carceri/',
+          name:"carceri",
+          title:"Situazione carceraria",
+          component: CarceriPage,
           icon: "material:newspaper"
         },
       ]

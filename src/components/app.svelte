@@ -1,14 +1,12 @@
 <App { ...f7params }>
 
   <!-- Left panel with cover effect-->
-  <Panel left cover dark>
+  <Panel left reveal dark>
     <View>
       <Page>
         <Navbar title="Left Panel"/>
 
           <List dividersIos outlineIos strongIos>
-            
-    
             {#each pages as p}
               {#if p.name!="404"}
                 {#if p.routes}
