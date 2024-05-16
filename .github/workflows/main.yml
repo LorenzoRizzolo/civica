@@ -22,10 +22,10 @@ jobs:
       - name: Install dependencies
         run: npm i
       - name: Build website
-        run: npm run build && touch build/.nojekyll
+        run: npm run build && touch www/.nojekyll
       - name: Deploy pages
         uses: crazy-max/ghaction-github-pages@v2
         with:
-          build_dir: build
+          build_dir: www
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
