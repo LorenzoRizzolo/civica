@@ -10,6 +10,7 @@ import manicomiPage from "../pages/2023/manicomi.svelte"
 import borsellinoPage from "../pages/2022/borsellino.svelte"
 import penamortePage from "../pages/2023/penadimorte.svelte"
 import CarceriPage from "../pages/2024/carceri.svelte"
+import PiomboPage from "../pages/2024/piombo.svelte"
 
 
 function get_routes(){
@@ -102,6 +103,13 @@ function get_routes(){
           name:"giappponesi",
           title:"Giappone 1920",
           component: GiapoPage,
+          icon: "material:newspaper"
+        },
+        {
+          path: 'piombo/',
+          name:"piombo",
+          title:"Anni di piombo",
+          component: PiomboPage,
           icon: "material:newspaper"
         },
         {

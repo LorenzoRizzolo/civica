@@ -9,11 +9,11 @@
     </Navbar>
   
     <Block>
-      Durante quest'anno scolastico abbiamo affrontato insieme alla professoressa la situazione carceraria attuale. In classe è anche venuta la Direttrice del carcere Lo Russo e anche scrittice del libro "Senza sbarre",
-      Cosima Buccoliero, a fare un intervento riguardo alla situazione del carcere Lo Russo situato in Via Maria Adelaide Aglietta, 35, 10151 Torino TO.
-      Cosima è venuta con la sua collega Serena Uccello nel nostro istituto a parlare e ascoltare le nostre domande sul loro libro. <br>
-      <!-- <img src="/images/lo_russo.jpeg" alt="lo russo carcere"> -->
-
+      Durante quest'anno scolastico abbiamo affrontato insieme alla professoressa Giannattasio la situazione carceraria attuale Italiana. <br>
+      In classe è anche venuta come ospite la Direttrice del carcere Lo Russo Cotugno la quale è anche la scrittice del libro "Senza sbarre",
+      Cosima Buccoliero, facendo un intervento riguardo alla situazione del carcere Lo Russo Cotugno in Via Maria Adelaide Aglietta, 35, 10151 Torino.
+      Cosima è venuta con la sua collega Serena Uccello nel nostro istituto a parlare e ascoltare le nostre domande sul loro libro discutendo di argomenti interessanti
+      e curiosità di noi ragazzi.
     </Block>
   
   </Page>
