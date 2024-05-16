@@ -9,7 +9,7 @@
     </Navbar>
   
     <Block>
-      Durante quest'anno scolastico abbiamo affrontato insieme alla professoressa Giannattasio la situazione carceraria attuale Italiana. <br>
+      Durante quest'anno scolastico abbiamo affrontato insieme alla professoressa Giannattasio la situazione carceraria attuale italiana. <br>
       In classe è anche venuta come ospite la Direttrice del carcere Lo Russo Cotugno la quale è anche la scrittice del libro "Senza sbarre",
       Cosima Buccoliero, facendo un intervento riguardo alla situazione del carcere Lo Russo Cotugno in Via Maria Adelaide Aglietta, 35, 10151 Torino.
       Cosima è venuta con la sua collega Serena Uccello nel nostro istituto a parlare e ascoltare le nostre domande sul loro libro discutendo di argomenti interessanti
