@@ -11,6 +11,7 @@ import borsellinoPage from "../pages/2022/borsellino.svelte"
 import penamortePage from "../pages/2023/penadimorte.svelte"
 import CarceriPage from "../pages/2024/carceri.svelte"
 import PiomboPage from "../pages/2024/piombo.svelte"
+import MafiaOggiPage from "../pages/2024/mafia.svelte"
 
 
 function get_routes(){
@@ -117,6 +118,13 @@ function get_routes(){
           name:"carceri",
           title:"Situazione carceraria",
           component: CarceriPage,
+          icon: "material:newspaper"
+        },
+        {
+          path: 'mafia/',
+          name:"mafia",
+          title:"La Mafia Oggi",
+          component: MafiaOggiPage,
           icon: "material:newspaper"
         },
       ]
