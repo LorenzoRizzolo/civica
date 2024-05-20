@@ -1,17 +1,22 @@
 
 import HomePage from '../pages/home.svelte';
 import NotFoundPage from '../pages/404.svelte';
+// 2020
 import AugPage from "../pages/2020/augustan_age.svelte"
-import GiapoPage from "../pages/2024/giappone.svelte"
 import covidPage from "../pages/2020/covid.svelte"
 import crescerePage from "../pages/2020/crescere.svelte"
+// 2022
+import borsellinoPage from "../pages/2022/borsellino.svelte"
+// 2023
+import penamortePage from "../pages/2023/penadimorte.svelte"
+import MatteottiPage from "../pages/2023/matteotti.svelte"
 import cyberPage from "../pages/2023/cyber.svelte"
 import manicomiPage from "../pages/2023/manicomi.svelte"
-import borsellinoPage from "../pages/2022/borsellino.svelte"
-import penamortePage from "../pages/2023/penadimorte.svelte"
+// 2024
 import CarceriPage from "../pages/2024/carceri.svelte"
 import PiomboPage from "../pages/2024/piombo.svelte"
 import MafiaOggiPage from "../pages/2024/mafia.svelte"
+import GiapoPage from "../pages/2024/giappone.svelte"
 
 
 function get_routes(){
@@ -91,6 +96,13 @@ function get_routes(){
           name:"manicomi",
           title:"Manicomi",
           component: manicomiPage,
+          icon: "material:newspaper"
+        },
+        {
+          path: 'matteotti/',
+          name:"matteotti",
+          title:"Delitto Matteotti",
+          component: MatteottiPage,
           icon: "material:newspaper"
         },
       ]

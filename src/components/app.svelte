@@ -4,7 +4,7 @@
   <Panel left reveal dark>
     <View>
       <Page>
-        <Navbar title="Left Panel"/>
+        <Navbar title="Civica"/>
 
           <List dividersIos outlineIos strongIos>
             {#each pages as p}
