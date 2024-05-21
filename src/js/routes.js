@@ -12,6 +12,7 @@ import penamortePage from "../pages/2023/penadimorte.svelte"
 import MatteottiPage from "../pages/2023/matteotti.svelte"
 import cyberPage from "../pages/2023/cyber.svelte"
 import manicomiPage from "../pages/2023/manicomi.svelte"
+import emancipazionePage from "../pages/2023/emancipazione.svelte"
 // 2024
 import CarceriPage from "../pages/2024/carceri.svelte"
 import PiomboPage from "../pages/2024/piombo.svelte"
@@ -103,6 +104,13 @@ function get_routes(){
           name:"matteotti",
           title:"Delitto Matteotti",
           component: MatteottiPage,
+          icon: "material:newspaper"
+        },
+        {
+          path: 'emancipazione/',
+          name:"emancipazione",
+          title:"Emancipazione Femminile",
+          component: emancipazionePage,
           icon: "material:newspaper"
         },
       ]
