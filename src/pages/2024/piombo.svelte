@@ -26,6 +26,8 @@
       L'eredità degli anni di piombo è ancora presente nella memoria collettiva dell'Italia. Eventi come l'incontro con Benedetta Tobagi e la lettura del suo libro sono fondamentali per mantenere viva la consapevolezza di quel periodo storico e per riflettere sulle lezioni apprese. Solo attraverso il ricordo e l'analisi critica del passato possiamo costruire un futuro più giusto e libero dalla violenza politica.
       <br><br>
       In conclusione, "Come mi batte forte il cuore" non è solo la storia di una perdita personale, ma anche un potente atto di memoria e di impegno civile. La testimonianza di Benedetta Tobagi ci ricorda l'importanza di non dimenticare mai i sacrifici fatti per la libertà e la democrazia e di continuare a lottare contro ogni forma di violenza e ingiustizia.
+      <br><br>
+      La strage di piazza Fontana fu conseguenza di un grave attentato terroristico compiuto il 12 dicembre 1969 nel centro di Milano presso la Banca Nazionale dell'Agricoltura che causò 17 morti e 88 feriti.
     </Block>
   
   </Page>

@@ -7,12 +7,14 @@ import covidPage from "../pages/2020/covid.svelte"
 import crescerePage from "../pages/2020/crescere.svelte"
 // 2022
 import borsellinoPage from "../pages/2022/borsellino.svelte"
+import maxiPage from "../pages/2022/maxiprocesso.svelte"
 // 2023
 import penamortePage from "../pages/2023/penadimorte.svelte"
 import MatteottiPage from "../pages/2023/matteotti.svelte"
 import cyberPage from "../pages/2023/cyber.svelte"
 import manicomiPage from "../pages/2023/manicomi.svelte"
 import emancipazionePage from "../pages/2023/emancipazione.svelte"
+import agendePage from "../pages/2023/agende_rosse.svelte"
 // 2024
 import CarceriPage from "../pages/2024/carceri.svelte"
 import PiomboPage from "../pages/2024/piombo.svelte"
@@ -102,6 +104,13 @@ function get_routes(){
           component: emancipazionePage,
           icon: "material:newspaper"
         },
+        {
+          path: 'agende/',
+          name:"agende",
+          title:"Agende Rosse",
+          component: agendePage,
+          icon: "material:newspaper"
+        },
       ]
     },
     {
@@ -115,40 +124,47 @@ function get_routes(){
           component: borsellinoPage,
           icon: "material:newspaper"
         },
-      ]
-    },
-    {
-      path:"/2021/",
-      name:"2021",
-      routes:[]
-    },
-    {
-      path:"/2020/",
-      name:"2020",
-      routes:[
         {
-          path: 'augustan_age/',
-          name:"augustan_age",
-          title:"Augustan Age",
-          component: AugPage,
-          icon: "material:newspaper"
-        },
-        {
-          path: 'crescere/',
-          name:"crescere",
-          title:"Onesti Cittadini",
-          component: crescerePage,
-          icon: "material:newspaper"
-        },
-        {
-          path: 'covid/',
-          name:"covid",
-          title:"Covid-19",
-          component: covidPage,
+          path: 'maxi/',
+          name:"maxi",
+          title:"Il Maxiprocesso",
+          component: maxiPage,
           icon: "material:newspaper"
         },
       ]
     },
+    // {
+    //   path:"/2021/",
+    //   name:"2021",
+    //   routes:[]
+    // },
+    // {
+    //   path:"/2020/",
+    //   name:"2020",
+    //   routes:[
+    //     {
+    //       path: 'augustan_age/',
+    //       name:"augustan_age",
+    //       title:"Augustan Age",
+    //       component: AugPage,
+    //       icon: "material:newspaper"
+    //     },
+    //     {
+    //       path: 'crescere/',
+    //       name:"crescere",
+    //       title:"Onesti Cittadini",
+    //       component: crescerePage,
+    //       icon: "material:newspaper"
+    //     },
+    //     {
+    //       path: 'covid/',
+    //       name:"covid",
+    //       title:"Covid-19",
+    //       component: covidPage,
+    //       icon: "material:newspaper"
+    //     },
+    //   ]
+    // },
     {
       path: '(.*)',
       name:"404",

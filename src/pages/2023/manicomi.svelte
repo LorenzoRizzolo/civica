@@ -12,27 +12,29 @@
       Alda merini nata a Milano nel 1931, ha avuto una vita travagliata.
       Il papà le ha trasmesso la passione per la lettura.
       
-      
+      <br><br>
       Lei riesce a farsi pubblicare delle poesie, ma tornando a casa felice
       lo racconta al padre e lui gliele strappa dicendole di dover lavorare.
-      
+
+      <br><br>
       Lei ebbe il primo ricovero intorno ai 16 anni e le viene diagnosticata
       una sindrome bipolare. È stata internata in un manicomio di Milano
       per poco tempo dove vengono applicate delle cure e poi dimessa.
       A 21 anni si sposa con Canniti, un uomo non molto colto, ma benestante.
       Viene mandata dal marito in manicomio Paolo Pini a Milano per 10 anni.
       
-      
+      <br><br>
       Lei racconta che era stanca badando alle figlie e con la morte della madre lei
       andò in escandescenza e il marito chiamò un'ambulanza e gli chiede lui di mandarla in manicomio.
-      Prima della legge Basaglia il malato veniva sedato e maltrattato.
+      Prima della legge Basaglia del 1978 il malato veniva sedato e maltrattato.
       
-      
+      <br><br>
       Racconda di una sua amica che era stata messa in manicomio per essere una ragazza madre e la sua famiglia
       voleva disfarsene. Lei non era matta, era molto serena, ovviamente pensando al bambino piageva.
       "Ero sola e mi chiesi in che concetto Dio tenesse i pazzi, ma Dio ha dato il libero arbitrio,
       perchè un folle non può essere padrone della sua volontà?"
       
+      <br><br>
       Gli uomini erano divisi in un altro padiglione ed ogni uno era diviso in sotto reparti.
       Le notti per i malati c'erano continue grida e li legavano al letto con delle corde di canapa,
       in alcuni casi si usava a camicia di forza.
