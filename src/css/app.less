@@ -1,1 +1,16 @@
 /* Your app custom styles here */
+
+* {
+    scrollbar-width: none; /* Set the scrollbar width */
+}
+
+*::-webkit-scrollbar {
+    width: 8px; /* Set the width of the scrollbar */
+    border-radius: 10px !important; /* Set the border radius for the scrollbar track */
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--blue); /* Set the background color of the thumb */
+    border: 3px solid lightgray; /* Set the border of the thumb */
+    border-radius: 10px; /* Set the border radius for the thumb */
+}
