@@ -30,46 +30,35 @@ function get_routes(){
       icon: "material:house"
     },
     {
-      path:"/2020/",
-      name:"2020",
+      path:"/2024/",
+      name:"2024",
       routes:[
         {
-          path: 'augustan_age/',
-          name:"augustan_age",
-          title:"Augustan Age",
-          component: AugPage,
+          path: 'giapponesi/',
+          name:"giappponesi",
+          title:"Giappone 1920",
+          component: GiapoPage,
           icon: "material:newspaper"
         },
         {
-          path: 'crescere/',
-          name:"crescere",
-          title:"Onesti Cittadini",
-          component: crescerePage,
+          path: 'piombo/',
+          name:"piombo",
+          title:"Anni di piombo",
+          component: PiomboPage,
           icon: "material:newspaper"
         },
         {
-          path: 'covid/',
-          name:"covid",
-          title:"Covid-19",
-          component: covidPage,
+          path: 'carceri/',
+          name:"carceri",
+          title:"Situazione carceraria",
+          component: CarceriPage,
           icon: "material:newspaper"
         },
-      ]
-    },
-    {
-      path:"/2021/",
-      name:"2021",
-      routes:[]
-    },
-    {
-      path:"/2022/",
-      name:"2022",
-      routes:[
         {
-          path: 'borsellino/',
-          name:"borsellino",
-          title:"Paolo Borsellino",
-          component: borsellinoPage,
+          path: 'mafia/',
+          name:"mafia",
+          title:"La Mafia Oggi",
+          component: MafiaOggiPage,
           icon: "material:newspaper"
         },
       ]
@@ -116,35 +105,46 @@ function get_routes(){
       ]
     },
     {
-      path:"/2024/",
-      name:"2024",
+      path:"/2022/",
+      name:"2022",
       routes:[
         {
-          path: 'giapponesi/',
-          name:"giappponesi",
-          title:"Giappone 1920",
-          component: GiapoPage,
+          path: 'borsellino/',
+          name:"borsellino",
+          title:"Paolo Borsellino",
+          component: borsellinoPage,
+          icon: "material:newspaper"
+        },
+      ]
+    },
+    {
+      path:"/2021/",
+      name:"2021",
+      routes:[]
+    },
+    {
+      path:"/2020/",
+      name:"2020",
+      routes:[
+        {
+          path: 'augustan_age/',
+          name:"augustan_age",
+          title:"Augustan Age",
+          component: AugPage,
           icon: "material:newspaper"
         },
         {
-          path: 'piombo/',
-          name:"piombo",
-          title:"Anni di piombo",
-          component: PiomboPage,
+          path: 'crescere/',
+          name:"crescere",
+          title:"Onesti Cittadini",
+          component: crescerePage,
           icon: "material:newspaper"
         },
         {
-          path: 'carceri/',
-          name:"carceri",
-          title:"Situazione carceraria",
-          component: CarceriPage,
-          icon: "material:newspaper"
-        },
-        {
-          path: 'mafia/',
-          name:"mafia",
-          title:"La Mafia Oggi",
-          component: MafiaOggiPage,
+          path: 'covid/',
+          name:"covid",
+          title:"Covid-19",
+          component: covidPage,
           icon: "material:newspaper"
         },
       ]
