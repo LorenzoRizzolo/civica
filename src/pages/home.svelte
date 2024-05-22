@@ -18,11 +18,11 @@
     Il mio principale focus è sullo sviluppo di applicazioni web moderne e lo sviluppo web
   </Block>
 
-  <Block>
+  <!-- <Block>
     <BlockTitle>Nuove tecnologie</BlockTitle>
     Nei miei progetti utilizzo sempre nuove tecnologie, le quali facilitano lo sviluppo e ne migliorano le prestazioni. Questo sito è stato sviluppato con un potete
     framework moderno, ossia Svelte e framework7.
-  </Block>
+  </Block> -->
 
 </Page>
 <script>
