@@ -1,11 +1,10 @@
 <App { ...f7params }>
 
   <!-- Left panel with cover effect-->
-  <Panel left reveal dark>
+  <Panel left cover reveal>
     <View>
       <Page>
-        <Navbar title="Civica"/>
-
+        <Navbar title="Civica" subtitle="Lorenzo Rizzolo"/>
           <List dividersIos outlineIos strongIos>
             {#each pages as p}
               {#if p.name!="404"}

@@ -11,6 +11,8 @@
   <Block>
     <BlockTitle>Chi sono?</BlockTitle>
     Mi chiamo Lorenzo Rizzolo e sono uno studente dell'Istituto Internazionale Edoardo Agnelli di Torino.
+    <br>
+    Questo è il mio portfolio di educazione civica, improntato a visionare gli argomenti fatti in classe.
   </Block>
 
   <Block>
